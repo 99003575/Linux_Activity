@@ -9,6 +9,5 @@ char* mystrcat(char *destination, const char *source){
     return strcat(destination,source);
 }
 int mystrcmp(const char *str1, const char *str2){
-    return strcmp(Str1,Str2);
+    return strcmp(str1,str2);
 }
-
