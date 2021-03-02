@@ -1,22 +1,22 @@
 #include "myutils.h"
 
 //Function for factorial of a number
-int factorial(int k)
+int Factorial(int k)
 {
   if (k == 0) 
     return 1;
   else
-    return (k*factorial(k-1));
+    return (k*Factorial(k-1));
 }
 
 //Function to check prime number
 int isPrime(int m)
 {
-   int x;
+   int h;
  
-   for ( x = 2 ; x <= m - 1 ; x++ )
+   for ( h = 2 ; h <= m - 1 ; h++ )
    { 
-      if ( m % x == 0 )
+      if ( m % h == 0 )
      return 0;
    }
    return 1;
