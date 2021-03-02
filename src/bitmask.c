@@ -20,5 +20,12 @@ int flip(int a, int u)
 
 int query(int a,int u)
 {
-
+    if((num & 1)==1)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
 }
