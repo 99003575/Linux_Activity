@@ -18,9 +18,9 @@ int flip(int a, int u)
     return (a ^ (1 << (u - 1))); 
 } 
 
-int query(int a,int u)
+int query(number)
 {
-    if((num & 1)==1)
+    if((number & 1)==1)
     {
         return 1;
     }
