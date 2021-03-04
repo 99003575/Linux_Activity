@@ -9,7 +9,7 @@ int main()
 	int file, bytes;
 	char ch[16384];
     int characters, words, lines;
-	file=open("alpha.txt",O_RDONLY);
+	file=open("doc1.txt",O_RDONLY);
 
 	if(file<0)
 	{
