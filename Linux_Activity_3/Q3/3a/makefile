@@ -1,5 +1,5 @@
-Build:  m_s.c m_c.c
-	gcc s_s.c m_c.c -lpthread
+Build:  mutex_circulare.c 
+	gcc mutex_circulare.c -lpthread
 
 run:Build	
 	./a.out
